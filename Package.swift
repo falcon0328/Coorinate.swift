@@ -24,5 +24,6 @@ let package = Package(
         .testTarget(
             name: "CoordinateTests",
             dependencies: ["Coordinate"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
